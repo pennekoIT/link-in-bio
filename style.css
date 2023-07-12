@@ -1,0 +1,52 @@
+.container {
+  padding: 20px 20px 0;
+  height: 100vh;
+}
+
+.main-icon {
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+  border: 5px double #fff;
+}
+
+.user-name {
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  width: 100px;
+  margin: 10px auto 0 auto;
+  border-radius: 20px;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 2px 0;
+  background-color: #000a;
+  backdrop-filter: blur(12px);
+}
+
+.link-list {
+  margin-top: 60px;
+}
+
+.link-item {
+  border-radius: 40px;
+  max-width: 250px;
+  height: 40px;
+  margin: 20px auto 0 auto;
+  background-color: #fffa;
+  backdrop-filter: blur(12px);
+  font-size: 14px;
+}
+
+.link-anchor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 40px;
+  text-align: center;
+  width: 100%;
+}
+
+.link-anchor > img {
+  margin-right: 5px;
+}
