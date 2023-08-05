@@ -1,6 +1,13 @@
+html {
+  font-family: "VT323", monospace;
+  font-size: 20px;
+}
+
 .container {
   padding: 20px 20px 0;
   height: 100vh;
+  background-image: url("./images/background.jpg");
+  background-size: cover;
 }
 
 .main-icon {
@@ -11,17 +18,17 @@
 }
 
 .user-name {
-  font-size: 12px;
   font-weight: bold;
   text-align: center;
-  width: 100px;
-  margin: 10px auto 0 auto;
+  width: 110px;
+  margin: 10px auto 0;
   border-radius: 20px;
   color: #fff;
   border: 1px solid #fff;
-  padding: 2px 0;
   background-color: #000a;
   backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  line-height: 25px;
 }
 
 .link-list {
@@ -29,20 +36,20 @@
 }
 
 .link-item {
-  border-radius: 40px;
-  max-width: 250px;
-  height: 40px;
+  border-radius: 50px;
+  max-width: 450px;
+  height: 50px;
   margin: 20px auto 0 auto;
   background-color: #fffa;
   backdrop-filter: blur(12px);
-  font-size: 14px;
+  -webkit-backdrop-filter: blur(12px);
 }
 
 .link-anchor {
   display: flex;
   justify-content: center;
   align-items: center;
-  line-height: 40px;
+  line-height: 50px;
   text-align: center;
   width: 100%;
 }
